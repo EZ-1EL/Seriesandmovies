@@ -1,0 +1,56 @@
+
+    /* Default styles */
+    body {
+        background-color: #1B2430;
+        color: white;
+    }
+    .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2f3640; /* you can change this color as you like */
+           
+        }
+  
+    .video-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    video {
+        width: 60%;
+        height: 60%;
+    }
+    .qwer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px
+  }
+    @media (max-width: 800px) {
+        video {
+            width: 80%;
+            height: 80%;
+        }
+        .qwer img{
+            height: 54% ;
+            width: 194px;
+        }
+    }
+    h3{
+        text-align: center;
+    }
+    .logos{
+       
+        display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .facebook{
+        margin-right: 10px;
+    }
+    .qwer img{
+            height: 54% ;
+            width: 194px;
+        }
